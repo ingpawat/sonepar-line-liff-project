@@ -1,0 +1,25 @@
+body {
+  margin: 20px;
+  color: #000; /* Set the desired text color */
+}
+
+button {
+  display: none;
+  width: 100%;
+  padding: 8px 0;
+  margin: 8px auto;
+  border-radius: 8px; /* Simplified border-radius property for all browsers */
+}
+
+p {
+  border-bottom: 1px dashed #bbb;
+}
+
+#pictureUrl {
+  margin: 0 auto;
+  width: 32%;
+  display: flex; /* Use flex display instead of browser-specific properties */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 256px; /* Adjust the value as needed */
+}
